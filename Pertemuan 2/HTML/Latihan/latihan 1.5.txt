@@ -1,0 +1,8 @@
+latihan 1.5 HTML
+
+1. menambahkan foto di img src dan alt, tidak terjadi error
+2. akan merefresh ulang web dan keluar dari website , kembali ke halaman browser awal
+3.body : 
+tr:
+th:
+td:
