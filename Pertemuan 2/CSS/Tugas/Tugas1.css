@@ -1,0 +1,22 @@
+body{
+  background-image: url(pemandangan.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.transparan {
+  width:700px;
+  height:120px;
+  margin:450px 40px;
+  background-color:black;
+  opacity:0.7;
+  filter:alpha(opacity=60);
+}
+.transparan h1{
+  margin:10px 10px;
+  color:white;
+}
+.transparan p{
+  margin:10px 10px;
+  color:white;
+}
