@@ -7,8 +7,8 @@
 <?php
 $conn=mysqli_connect ("localhost","root","")
 or die ("koneksi gagal");
-mysqli_select.db($conn,"Faruq");
-$hasil = mysqli_query("select * from liga",$conn);
+mysqli_select_db($conn,"minggu8");
+$hasil = mysqli_query($conn,"select * from liga");
 while ($row=mysqli_fetch_array($hasil)) {
 echo "Liga " .$row["negara"]; //array asosiatif
 echo " mempunyai " .$row[2]; //array numeris
